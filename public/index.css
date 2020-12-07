@@ -4,25 +4,35 @@
 }
 
 .chat-input {
-  width: 300px;
-  height: 35px;
+  /*width: 70%;*/
+  /*height: 35px;*/
   border: solid 1px #444;
+  border-radius: 999rem;
 }
 
 .chat-submit {
-  width: 50px;
-  height: 35px;
-  border: solid 1px #444;
+  /*width: 20%;*/
+  /*[>height: 35px;<]*/
+  /*border: solid 1px #444;*/
+  border-radius: 999rem;
+  color: #fff;
+  background: #000;
 }
 
 .chat-window {
-  height: 300px;
-  width: 400px;
+  height: 100%;
+  width: 100%;
 }
 
 #chatSection {
-  float: left;
+  /*float: left;*/
   border: 1px grey solid;
   border-radius: 10px;
   padding: 10px;
 }
+
+/*.render-message {*/
+  /*width: 50%;*/
+  /*color: red;*/
+  /*background: #000;*/
+/*}*/

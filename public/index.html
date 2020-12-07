@@ -2,17 +2,20 @@
 <html>
   <head>
     <title>Chat app</title>
+    <link rel="stylesheet" href="index.css"></link>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
   </head>
   <body>
-    <div id="container">
+    <div id="container" class="pt-5">
       <div id="chatSection">
-        <div class="chat-window"></div>
-        <form class="chat-form">
-          <label class="chat-label">
-            Escribe un mensaje:
-            <input type="text" class="chat-input" />
-          </label>
-          <input type="submit" class="chat-submit" value="Enter" />
+        <div class="chat-window">
+          <div class="alert alert-warning text-center" role="alert">
+            Comienza a escribir!
+          </div>
+        </div>
+        <form class="chat-form d-flex">
+          <input type="text" class="chat-input col-9 ml-3" placeholder="Escribe un mensaje"/>
+          <input type="submit" class="chat-submit col-3" value="Enviar" />
         </form>
       </div>
     </div>
